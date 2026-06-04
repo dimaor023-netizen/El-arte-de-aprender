@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "El Arte de Aprender",
+    "slug": "el-arte-de-aprender",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Ionicons.ttf"]
+        }
+      ]
+    ]
+  }
+}
